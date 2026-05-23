@@ -4,8 +4,7 @@
 
 ## 公開URL
 
-<!-- デプロイ後に追記 -->
-https://boatrace-omura-live.streamlit.app/
+<https://boatrace-omura-live.streamlit.app/>
 
 ## このリポジトリの目的
 
