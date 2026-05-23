@@ -1,0 +1,96 @@
+{
+  "race_date": "2026-05-10",
+  "stadium_id": 24,
+  "race_no": 1,
+  "deadline": "15:20",
+  "fetched_at": "2026-05-10T15:10:20",
+  "top1_combo": "1-4-3",
+  "top1_prob": 0.25391417870217187,
+  "top1_odds": 12.7,
+  "expected_value": 2.2247100695175823,
+  "lane_probs": {
+    "1": 0.5621893249014391,
+    "2": 0.053611050349946336,
+    "3": 0.17305466427059282,
+    "4": 0.2000347562602842,
+    "5": 0.010377795437160168,
+    "6": 0.000732408780577381
+  },
+  "top_combos": [
+    {
+      "combo": "1-4-3",
+      "p_combo": 0.25391417870217187
+    },
+    {
+      "combo": "1-3-4",
+      "p_combo": 0.22134085839583598
+    },
+    {
+      "combo": "4-1-3",
+      "p_combo": 0.08574102863797789
+    },
+    {
+      "combo": "3-1-4",
+      "p_combo": 0.07283896402771428
+    },
+    {
+      "combo": "1-4-2",
+      "p_combo": 0.06873296848980365
+    }
+  ],
+  "feature_snapshot": {
+    "weather": {
+      "weather": null,
+      "temperature_c": 22.0,
+      "wind_direction": null,
+      "wind_speed_m": 2,
+      "water_temp_c": 22.0,
+      "wave_cm": 1
+    },
+    "racer_summary": [
+      {
+        "lane": 1,
+        "racer_id": "5261",
+        "class_": "B1",
+        "nw_rate": 4.49,
+        "exhibition": 6.96
+      },
+      {
+        "lane": 2,
+        "racer_id": "4720",
+        "class_": "B1",
+        "nw_rate": 4.16,
+        "exhibition": 6.94
+      },
+      {
+        "lane": 3,
+        "racer_id": "3508",
+        "class_": "B1",
+        "nw_rate": 5.57,
+        "exhibition": 6.9
+      },
+      {
+        "lane": 4,
+        "racer_id": "4315",
+        "class_": "B1",
+        "nw_rate": 4.92,
+        "exhibition": 6.8
+      },
+      {
+        "lane": 5,
+        "racer_id": "4924",
+        "class_": "B1",
+        "nw_rate": 4.53,
+        "exhibition": 6.95
+      },
+      {
+        "lane": 6,
+        "racer_id": "5457",
+        "class_": "B2",
+        "nw_rate": 0.0,
+        "exhibition": 6.91
+      }
+    ]
+  },
+  "notes": []
+}

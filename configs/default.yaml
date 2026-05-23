@@ -1,0 +1,67 @@
+# 競艇予想AI 既定設定
+# 場ID: 大村=24
+# (01桐生 02戸田 03江戸川 04平和島 05多摩川 06浜名湖 07蒲郡 08常滑
+#  09津 10三国 11琵琶湖 12住之江 13尼崎 14鳴門 15丸亀 16児島
+#  17宮島 18徳山 19下関 20若松 21芦屋 22福岡 23唐津 24大村)
+
+target:
+  stadium_id: 24
+  stadium_name: "大村"
+  bet_type: "trifecta"  # 3連単
+
+data:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  processed_dir: "data/processed"
+  history_start: "2019-01-01"
+  history_end: null  # null=直近まで
+
+scraping:
+  official_base_url: "https://www1.mbrace.or.jp/od2/B/"  # 番組
+  # 結果は boatrace.jp の lzh アーカイブを使用
+  user_agent: "boatrace-forecast/0.1 (educational research; respect robots.txt)"
+  request_interval_seconds: 1.5
+  retries: 3
+  timeout_seconds: 30
+
+features:
+  use_racer: true
+  use_motor: true
+  use_boat: true
+  use_weather: true
+  use_entry: true     # 進入
+  use_odds: true
+  exclude_canceled: true
+
+model:
+  type: "multiclass"  # multiclass | ranker
+  algorithm: "lightgbm"
+  random_state: 42
+  num_leaves: 63
+  learning_rate: 0.05
+  n_estimators: 500
+  early_stopping_rounds: 50
+
+backtest:
+  walk_forward:
+    train_start: "2019-01-01"
+    initial_train_end: "2023-12-31"
+    val_window_months: 6
+  metrics:
+    - "roi"
+    - "hit_rate"
+    - "max_drawdown"
+    - "sharpe_monthly"
+    - "n_bets"
+
+betting:
+  ev_threshold: 0.10            # 期待値10%以上のみ購入
+  kelly_fraction: 0.25          # 1/4 Kelly
+  bet_unit_yen: 100
+  per_race_capital_pct: 0.02    # 1レース最大2%
+  daily_stop_loss_pct: 0.10     # 日次10%損失でストップ
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+  log_dir: "logs"

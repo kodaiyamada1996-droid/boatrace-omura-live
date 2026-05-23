@@ -1,0 +1,96 @@
+{
+  "race_date": "2026-05-10",
+  "stadium_id": 24,
+  "race_no": 6,
+  "deadline": "17:25",
+  "fetched_at": "2026-05-10T17:15:17",
+  "top1_combo": "1-3-2",
+  "top1_prob": 0.20360333235067696,
+  "top1_odds": 4.9,
+  "expected_value": -0.0023436714816827964,
+  "lane_probs": {
+    "1": 0.7901961924262904,
+    "2": 0.07037345780872367,
+    "3": 0.08026033750254943,
+    "4": 0.014782581794785046,
+    "5": 0.03924965030066083,
+    "6": 0.005137780166990542
+  },
+  "top_combos": [
+    {
+      "combo": "1-3-2",
+      "p_combo": 0.20360333235067696
+    },
+    {
+      "combo": "1-2-3",
+      "p_combo": 0.18772625648627153
+    },
+    {
+      "combo": "1-3-5",
+      "p_combo": 0.10987774718975482
+    },
+    {
+      "combo": "1-2-5",
+      "p_combo": 0.08788488603557032
+    },
+    {
+      "combo": "1-5-3",
+      "p_combo": 0.0820317278589169
+    }
+  ],
+  "feature_snapshot": {
+    "weather": {
+      "weather": null,
+      "temperature_c": 22.0,
+      "wind_direction": null,
+      "wind_speed_m": 1,
+      "water_temp_c": 22.0,
+      "wave_cm": 1
+    },
+    "racer_summary": [
+      {
+        "lane": 1,
+        "racer_id": "4096",
+        "class_": "A1",
+        "nw_rate": 6.38,
+        "exhibition": 6.81
+      },
+      {
+        "lane": 2,
+        "racer_id": "3508",
+        "class_": "B1",
+        "nw_rate": 5.57,
+        "exhibition": 6.85
+      },
+      {
+        "lane": 3,
+        "racer_id": "3777",
+        "class_": "A2",
+        "nw_rate": 6.19,
+        "exhibition": 6.89
+      },
+      {
+        "lane": 4,
+        "racer_id": "3871",
+        "class_": "B1",
+        "nw_rate": 4.44,
+        "exhibition": 6.95
+      },
+      {
+        "lane": 5,
+        "racer_id": "4553",
+        "class_": "A2",
+        "nw_rate": 6.2,
+        "exhibition": 6.9
+      },
+      {
+        "lane": 6,
+        "racer_id": "4764",
+        "class_": "B1",
+        "nw_rate": 5.14,
+        "exhibition": 6.86
+      }
+    ]
+  },
+  "notes": []
+}

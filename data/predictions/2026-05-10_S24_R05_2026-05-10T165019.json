@@ -1,0 +1,96 @@
+{
+  "race_date": "2026-05-10",
+  "stadium_id": 24,
+  "race_no": 5,
+  "deadline": "17:00",
+  "fetched_at": "2026-05-10T16:50:19",
+  "top1_combo": "1-4-3",
+  "top1_prob": 0.27754707254946087,
+  "top1_odds": 27.0,
+  "expected_value": 6.4937709588354435,
+  "lane_probs": {
+    "1": 0.6644874179687154,
+    "2": 0.01951856745855524,
+    "3": 0.08472052985104296,
+    "4": 0.18347839571447586,
+    "5": 0.04134371353664082,
+    "6": 0.0064513754705697885
+  },
+  "top_combos": [
+    {
+      "combo": "1-4-3",
+      "p_combo": 0.27754707254946087
+    },
+    {
+      "combo": "1-3-4",
+      "p_combo": 0.15289674971995063
+    },
+    {
+      "combo": "1-4-5",
+      "p_combo": 0.12931481034096512
+    },
+    {
+      "combo": "1-5-4",
+      "p_combo": 0.060990406921403735
+    },
+    {
+      "combo": "1-4-2",
+      "p_combo": 0.059691195225141366
+    }
+  ],
+  "feature_snapshot": {
+    "weather": {
+      "weather": null,
+      "temperature_c": 22.0,
+      "wind_direction": null,
+      "wind_speed_m": 2,
+      "water_temp_c": 22.0,
+      "wave_cm": 1
+    },
+    "racer_summary": [
+      {
+        "lane": 1,
+        "racer_id": "4241",
+        "class_": "A2",
+        "nw_rate": 5.58,
+        "exhibition": 6.9
+      },
+      {
+        "lane": 2,
+        "racer_id": "4924",
+        "class_": "B1",
+        "nw_rate": 4.53,
+        "exhibition": 6.92
+      },
+      {
+        "lane": 3,
+        "racer_id": "5015",
+        "class_": "A1",
+        "nw_rate": 6.83,
+        "exhibition": 6.92
+      },
+      {
+        "lane": 4,
+        "racer_id": "4842",
+        "class_": "A2",
+        "nw_rate": 6.23,
+        "exhibition": 6.92
+      },
+      {
+        "lane": 5,
+        "racer_id": "4695",
+        "class_": "B1",
+        "nw_rate": 5.54,
+        "exhibition": 6.79
+      },
+      {
+        "lane": 6,
+        "racer_id": "4765",
+        "class_": "B1",
+        "nw_rate": 5.02,
+        "exhibition": 6.94
+      }
+    ]
+  },
+  "notes": []
+}
