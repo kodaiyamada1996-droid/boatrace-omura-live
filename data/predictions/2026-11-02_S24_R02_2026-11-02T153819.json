@@ -1,0 +1,121 @@
+{
+  "race_date": "2026-11-02",
+  "stadium_id": 24,
+  "race_no": 2,
+  "deadline": "15:48",
+  "fetched_at": "2026-11-02T15:38:19",
+  "top1_combo": "1-3-5",
+  "top1_prob": 0.19713612787494159,
+  "top1_prob_calibrated": 0.13364779874213834,
+  "top1_odds": 31.7,
+  "expected_value": 4.236635220125785,
+  "ev_threshold": 1.2,
+  "conf_threshold": 0.2,
+  "lane_probs": {
+    "1": 0.5960535072779248,
+    "2": 0.026733146583355346,
+    "3": 0.19313091389603043,
+    "4": 0.04032650341007187,
+    "5": 0.10278417221900762,
+    "6": 0.04097175661360986
+  },
+  "top_combos": [
+    {
+      "combo": "1-3-5",
+      "p_combo": 0.19713612787494159,
+      "p_calibrated": 0.13364779874213834,
+      "odds": 31.7,
+      "ev": 4.236635220125785,
+      "buy": false
+    },
+    {
+      "combo": "1-5-3",
+      "p_combo": 0.12715707958615363,
+      "p_calibrated": 0.0871559633027523,
+      "odds": 59.1,
+      "ev": 5.150917431192661,
+      "buy": false
+    },
+    {
+      "combo": "1-3-6",
+      "p_combo": 0.07351739205620951,
+      "p_calibrated": 0.07351739205620951,
+      "odds": 29.6,
+      "ev": 2.1761148048638015,
+      "buy": false
+    },
+    {
+      "combo": "1-3-4",
+      "p_combo": 0.07231093414180634,
+      "p_calibrated": 0.07231093414180634,
+      "odds": 34.4,
+      "ev": 2.487496134478138,
+      "buy": false
+    },
+    {
+      "combo": "3-1-5",
+      "p_combo": 0.05397888607287487,
+      "p_calibrated": 0.05397888607287487,
+      "odds": 54.7,
+      "ev": 2.9526450681862557,
+      "buy": false
+    }
+  ],
+  "feature_snapshot": {
+    "weather": {
+      "weather": "晴",
+      "temperature_c": 20.0,
+      "wind_direction": "9",
+      "wind_speed_m": 5,
+      "water_temp_c": 23.0,
+      "wave_cm": 4
+    },
+    "racer_summary": [
+      {
+        "lane": 1,
+        "racer_id": "4865",
+        "class_": "B2",
+        "nw_rate": 3.56,
+        "exhibition": 6.92
+      },
+      {
+        "lane": 2,
+        "racer_id": "3982",
+        "class_": "B1",
+        "nw_rate": 4.57,
+        "exhibition": 6.96
+      },
+      {
+        "lane": 3,
+        "racer_id": "5086",
+        "class_": "B1",
+        "nw_rate": 3.85,
+        "exhibition": 6.8
+      },
+      {
+        "lane": 4,
+        "racer_id": "5081",
+        "class_": "A2",
+        "nw_rate": 5.45,
+        "exhibition": 6.96
+      },
+      {
+        "lane": 5,
+        "racer_id": "4535",
+        "class_": "A2",
+        "nw_rate": 7.31,
+        "exhibition": 6.92
+      },
+      {
+        "lane": 6,
+        "racer_id": "4269",
+        "class_": "A2",
+        "nw_rate": 7.2,
+        "exhibition": 6.84
+      }
+    ]
+  },
+  "notes": [],
+  "buy_recommended": false,
+  "buy_reason": "p_combo=0.197 < 0.20 (見送り, EV=4.237)"
+}
